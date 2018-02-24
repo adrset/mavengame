@@ -112,10 +112,4 @@
 		</dependency>
 
 	</dependencies>
-
-	<build>
-		<resource>
-			<directory>src/main/resources</directory>
-		</resource>
-	</build>
 </project>

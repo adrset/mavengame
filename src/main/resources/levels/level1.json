@@ -39,12 +39,12 @@
 
   },
   "skybox" : {
-	"top" : "skybox_top",
-	"bottom" : "skybox_bottom",
-	"front" : "skybox_front",
-	"back" : "skybox_back",
-	"left" : "skybox_left",
-	"right" : "skybox_right"
+	"top" : "skybox_top.png",
+	"bottom" : "skybox_bottom.png",
+	"front" : "skybox_front.png",
+	"back" : "skybox_back.png",
+	"left" : "skybox_left.png",
+	"right" : "skybox_right.png"
   }
 
 }

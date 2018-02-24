@@ -3,6 +3,7 @@ package paralax.game.utils;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.ByteBuffer;
+import java.nio.FloatBuffer;
 import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
 import java.nio.channels.SeekableByteChannel;
@@ -14,6 +15,13 @@ import static org.lwjgl.BufferUtils.*;
 import org.lwjgl.BufferUtils;
 
 public class Utils {
+	public static FloatBuffer storeDataInFB(float[] data) {
+		FloatBuffer buffer = BufferUtils.createFloatBuffer(data.length);
+		buffer.put(data);
+		buffer.flip();
+		return buffer;
+	}
+
 	public static ByteBuffer ioResourceToByteBuffer(String resource, int bufferSize) throws IOException {
 		ByteBuffer buffer;
 
