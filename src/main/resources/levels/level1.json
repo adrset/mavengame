@@ -1,0 +1,50 @@
+{
+  "supportedVersion" : "1.0",
+  "levelName": "Level1",
+  "entities": {
+    "player":{
+      "size" : 1,
+      "position": {
+        "x" : 0.0,
+        "y" : 0.0,
+        "z" : 0.0
+      },
+	  "speed" : 100.0,
+      "model" : "planet",
+      "texture" : "2"
+    },
+    "lights":{
+      "light1":{
+        "position":{
+          "x" : 0.0,
+          "y" : 0.0,
+          "z" : 0.0
+        },
+        "color":{
+          "r" : 255,
+          "g" : 255,
+          "b" : 153
+         },
+         "attentuation" : {
+           "d1" : 1.0,
+           "d2" : 0.0,
+           "d3" : 0.0
+         },
+         "model" : "planet",
+         "texture" : "2",
+         "radius" : 25000,
+         "density" : 10000000000000.0
+      }
+    }
+
+  },
+  "skybox" : {
+	"top" : "skybox_top",
+	"bottom" : "skybox_bottom",
+	"front" : "skybox_front",
+	"back" : "skybox_back",
+	"left" : "skybox_left",
+	"right" : "skybox_right"
+  }
+
+}
